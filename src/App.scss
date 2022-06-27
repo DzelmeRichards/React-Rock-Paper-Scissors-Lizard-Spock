@@ -1,0 +1,39 @@
+.game__title {
+  margin-top: 20px;
+  text-shadow: 0.5px 1px white;
+}
+
+.game__sub-title {
+  margin-top: 20px;
+}
+
+.game__choose-weapon-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__choose-weapon {
+  background-color: transparent;
+  max-width: 150px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.game__game-title {
+  margin-top: 20px;
+}
+
+.game__score-title {
+  margin-top: 20px;
+}
